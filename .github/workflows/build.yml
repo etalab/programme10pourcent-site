@@ -3,7 +3,7 @@ name: Build Pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - main  # Set a branch to deploy
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Update static branch
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -53,7 +53,7 @@ jobs:
         run: echo ::set-output name=ci_commit::$(git rev-parse pages)
 
       - name: Deploy
-        uses: dokku/github-action@master
+        uses: dokku/github-action@v1.0.2
         with:
           ci_commit: ${{ steps.vars.outputs.ci_commit }}
           ci_branch_name: pages
