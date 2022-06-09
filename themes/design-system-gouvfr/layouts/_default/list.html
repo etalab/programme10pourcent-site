@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main id="content" class="fr-py-3w">
+  <h1>{{ partial "typography.html" .Title }}</h1>
+  {{ partial "typography.html" .Content }}
+  <ul>
+  {{ range .Pages }}
+      {{ .Render "summary"}}
+  {{ end }}
+  </ul>
+</main>
+{{ end }}

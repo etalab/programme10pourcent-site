@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main id="content" class="fr-py-3w">
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil d’Ariane</button>
+        <div class="fr-collapse" id="breadcrumb-1">
+            <ol class="fr-breadcrumb__list">
+                <li>
+                    <a class="fr-breadcrumb__link" href="{{ .Site.BaseURL }}{{ .Site.Language.Lang }}/">Accueil</a>
+                </li>
+                <li>
+                    <a class="fr-breadcrumb__link" href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Title }}</a>
+                </li>
+                <li>
+                    <a class="fr-breadcrumb__link" aria-current="page">{{ partial "typography.html" .Title }}</a>
+                </li>
+            </ol>
+        </div>
+    </nav>
+    <h1>{{ partial "typography.html" .Title }}</h1>
+    <p class="fr-card__desc">{{if .Params.Responsible }}Porté par{{end}} <b>{{ .Params.Responsible | markdownify }}</b></p>
+
+    <p class="fr-text--lead">
+        {{ partial "typography.html" .Summary }}
+    </p>
+
+
+    {{ if (isset .Params "images") }}<p class="center"><img style="max-height: 400px; max-width: 100%;" src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}" alt="{{ .Title }}"/></p>{{ end }}
+    <div class="justify">
+        {{ partial "typography.html" (replace .Content .Summary "") }}
+    </div>
+</main>
+{{ end }}

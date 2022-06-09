@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/badge.patch.css">
+
+<header role="banner" class="fr-header">
+    <div class="fr-header__body">
+        <div class="fr-container">
+            <div class="fr-header__body-row">
+                <div class="fr-header__brand fr-enlarge-link">
+                    <div class="fr-header__brand-top">
+                        <div class="fr-header__logo">
+                            <p class="fr-logo">Gouvernement</p>
+                        </div>
+                        <div class="fr-header__navbar">
+                            <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-833" id="button-834" aria-haspopup="menu" title="Menu">
+                                Menu
+                            </button>
+                        </div>
+                    </div>
+                    <div class="fr-header__service">
+                        <a href="{{ ""| absLangURL}}" title="Accueil - 10%">
+                            <p class="fr-header__service-title">
+                                Programme 10%
+                                <span class="fr-badge fr-badge--sm fr-badge--green-emeraude">BETA</span>
+                            </p>
+                        </a>
+
+                        <p class="fr-header__service-tagline"><em>Un programme de collaboration interministérielle porté par Etalab</em></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation principale -->
+    <div class="fr-header__menu fr-modal" id="modal-833" aria-labelledby="button-834">
+        <div class="fr-container">
+            <button class="fr-link--close fr-link" aria-controls="modal-833">Fermer</button>
+            <div class="fr-header__menu-links"></div>
+            <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
+                <ul class="fr-nav__list">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        <li class="fr-nav__item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} fr-nav__item--active{{end}}">
+                            <a class="fr-nav__link" href="{{  .URL | absLangURL }}" title="{{ .Title }}"  target="_self">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

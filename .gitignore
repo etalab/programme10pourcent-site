@@ -1,0 +1,8 @@
+hugo
+public
+static/design-system-gouvfr
+*.swp
+.hugo_build.lock
+themes/design-system-gouvfr/package-lock.json
+*.DS_Store
+/.idea

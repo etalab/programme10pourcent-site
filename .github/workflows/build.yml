@@ -1,0 +1,62 @@
+name: Build Pages
+
+on:
+  push:
+    branches:
+      - master  # Set a branch to deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.4.0
+        with:
+          access_token: ${{ github.token }}
+
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+          # extended: true
+
+      - name: Build
+        run: |
+          cd themes/design-system-gouvfr && npm install && cd ../../
+          cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
+          hugo --minify -b https://10pourcent.etalab.studio
+
+      - name: Update static branch
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: pages
+
+  deploy:
+    runs-on: ubuntu-20.04
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: pages
+
+      - name: Compute latest commit
+        id: vars
+        run: echo ::set-output name=ci_commit::$(git rev-parse pages)
+
+      - name: Deploy
+        uses: dokku/github-action@master
+        with:
+          ci_commit: ${{ steps.vars.outputs.ci_commit }}
+          ci_branch_name: pages
+          git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
+          ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
+          git_push_flags: "--force"

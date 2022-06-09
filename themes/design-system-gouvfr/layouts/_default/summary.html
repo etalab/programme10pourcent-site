@@ -1,0 +1,17 @@
+<div class="fr-card fr-card--horizontal fr-my-3w summary-card">
+    <div class="fr-card__img">
+        <img src="{{ .Site.BaseURL }}{{ index .Params.images 0 }}" title="{{ .Title }}" class="fr-responsive-img" alt="Illustration">
+    </div>
+    <div class="fr-card__body">
+        <p class="fr-card__detail">{{ .Date.Format "02/01/2006" | markdownify}}</p>
+        <h4 class="fr-card__title">
+            <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
+        </h4>
+        <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
+        <p class="fr-card__desc">{{if .Params.Responsible }}Porté par{{end}} <b>{{ .Params.Responsible | markdownify }}</b></p>
+
+    </div>
+</div>
+
+
+

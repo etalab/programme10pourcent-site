@@ -1,0 +1,247 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/design-system-gouvfr/css/dsfr.min.css">
+<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="icon" href="{{ .Site.BaseURL }}/marianne.png" type="image/png" />
+<link rel="icon" href="{{ .Site.BaseURL }}/marianne.svg" />
+<link rel="icon" href="{{ .Site.BaseURL }}/favicon-32.png" type="image/png" sizes="32x32" />
+<link rel="icon" href="{{ .Site.BaseURL }}/favicon-64.png" type="image/png" sizes="64x64" />
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+<style>
+    .fr-card__detail {
+        order: 0;
+    }
+
+    .no-pointer {
+        cursor: initial !important;
+    }
+
+    .fr-breadcrumb {
+        margin-top: 0;
+    }
+
+    #content p + ul {
+        margin-top: -2rem;
+    }
+
+    :root {
+        --bs300: #d5dbef;
+        --bs500: #5770be;
+    }
+
+    :root:not([data-fr-theme="dark"]) .fr-tile, :root:not([data-fr-theme="dark"]) [class*="--scheme-light-"] .fr-tile, :root:not([data-fr-theme="dark"]) [class*="fr-scheme-light"] .fr-tile,
+    :root:not([data-fr-theme="dark"]) .fr-card, :root:not([data-fr-theme="dark"]) [class*="--scheme-light-"] .fr-card, :root:not([data-fr-theme="dark"]) [class*="fr-scheme-light"] .fr-card {
+        --color-hover: var(--bs300) !important;
+        --color-active: var(--bs500) !important;
+    }
+
+    .fr-card--horizontal .fr-card__img img {
+        object-position: 50% 0%;
+    }
+
+    .fr-header .fr-nav__list {
+        position: relative;
+    }
+
+    .fr-header .fr-nav__list li.fr-nav__item--lang {
+        position: absolute;
+        right: 0;
+        border-left: 1px solid var(--g300);
+    }
+    .fr-nav__item--lang {
+        z-index: 9999;
+    }
+    .fr-header .fr-nav__list li.fr-nav__item--lang a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-weight: normal;
+    }
+
+    .fr-tile {
+        flex-direction: column;
+    }
+
+    /** Content pages */
+    #content .fr-card {
+        background-color: white;
+        border: 1px solid var(--bf500);
+        border-bottom: 5px solid var(--bf500);
+    }
+
+    #content p, #content ul {
+        text-align: justify;
+    }
+
+    #content h1 {
+        border-bottom: 5px solid var(--bf500);
+    }
+
+    #content h2 {
+        border-bottom: 3px solid var(--rm500);
+    }
+
+    #content h3 {
+        border-bottom: 1px solid var(--bf500-plain);
+    }
+
+    /** Homepage */
+    /*** Catch phrase */
+    main#homepage .catch-phrase {
+        text-align: center;
+        color: var(--bf500) !important;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-size: 3.5em !important;
+        font-weight: 800 !important;
+        line-height: 1.25 !important;
+    }
+
+    /*** Cards */
+    main#homepage .fr-card {
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    main#homepage .fr-card:hover {
+        background-image: none; /* No hover effect */
+    }
+
+    main#homepage .fr-highlight {
+        margin-bottom: 1rem;
+    }
+
+    main#homepage .fr-card__body::after {
+        display: none; /* No arrows */
+    }
+    main#homepage .fr-card__img img {
+        border-radius: 100px;
+        border: 1px solid var(--g500);
+    }
+
+    main#homepage .fr-card__detail {
+        text-align: right;
+    }
+
+    main#homepage .fr-card__link {
+        text-align: center;
+        display: inline-block;
+    }
+
+    main#homepage .fr-card__img img {
+        border-radius: 100px;
+        border: 1px solid var(--g500);
+    }
+
+    main#homepage .fr-card__detail {
+        text-align: right;
+    }
+
+    main#homepage .fr-card__link {
+        text-align: center;
+        display: inline-block;
+    }
+
+    main#homepage .fr-card__link::before {
+        display: none;
+    }
+
+    main#homepage .revue-presse .fr-card__detail {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    main#homepage .fr-tile {
+        transition: transform 330ms;
+        backface-visibility: hidden;
+    }
+    main#homepage .fr-tile:hover {
+        transform: scale(1.02);
+    }
+
+    @media (min-width:48em) {
+        .l-row-reverse {
+            flex-direction: row;
+        }
+
+        main#homepage .main .fr-card--horizontal .fr-card__body {
+            flex-basis: 50%;
+        }
+
+        main#homepage .main .fr-card--horizontal .fr-card__img {
+            width: 50%;
+            cursor: pointer;
+        }
+    }
+
+    /*** Partenaires ***/
+    .fr-tile {
+        background-color: white !important;
+        border: 1px solid var(--bf500) !important;
+    }
+    .fr-tile:hover {
+        background-color: var(--color-hover) !important;
+    }
+    .fr-tile:active {
+        background-color: var(--color-active) !important;
+    }
+    .fr-tile .fr-tile__img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .fr-tile__link {
+        display: inline-block;
+    }
+    @media (max-width:36em) {
+        .fr-tile__link {
+            font-size: 0.9em;
+        }
+    }
+    .recrutements .fr-tile {
+        transition: transform 330ms;
+        backface-visibility: hidden;
+    }
+    .recrutements .fr-tile:hover {
+        transform: scale(1.02);
+    }
+
+    /** Summary card */
+    .summary-card {
+        border: 1px solid var(--g400);
+    }
+
+    @media (min-width:48em) {
+        .summary-card .fr-card__body {
+            flex-basis: 30%;
+        }
+
+        .summary-card .fr-card__img {
+            width: 30%;
+        }
+    }
+
+    /** Text alignment */
+    .justify {
+        text-align: justify;
+        text-indent: 1.5rem;
+    }
+
+    .center {
+        text-align: center !important;
+    }
+    .center img {
+        margin: auto;
+    }
+
+    .inline-center {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+</style>

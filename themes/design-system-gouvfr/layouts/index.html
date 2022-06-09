@@ -1,0 +1,99 @@
+{{ define "main" }}
+<main id="homepage">
+    <div class="main">
+        <h2 class="catch-phrase">
+            Un programme de collaboration entre experts de la donnée de l'Etat
+        </h2>
+        <h6 class="legend">
+            Le programme 10% est une expérimentation qui vise à encourager le travail entre pairs en permettant aux experts de la donnée de la sphère publique de consacrer 10% de leur temps de travail à des projets d’intérêt partagé à l’échelle interministérielle.
+        </h6>
+
+
+        {{ range $index, $element := (where .Site.Pages "Section" "actualites") }}
+            {{ range where .Pages "Title" "!=" "actualites" }}
+            <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
+                <div class="fr-card__body">
+                    <h4 class="fr-card__lead" style="margin-top: 0;">
+                        <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
+                    </h4>
+                    <div class="fr-highlight">
+                        <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
+                    </div>
+                    <div class="fr-highlight">
+                        <p class="fr-card__desc">{{ .Params.Responsible | markdownify }}</p>
+                    </div>
+                    <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
+                    <p class="fr-card__detail center">
+                        <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                            Lire la suite
+                        </a>
+                    </p>
+                </div>
+                <div class="fr-card__img no-pointer">
+                    <img src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
+                        title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
+                </div>
+            </div>
+            {{ end }}
+        {{ end }}
+
+
+        <div class="fr-card fr-card--horizontal">
+            <div class="fr-card__body">
+                <h4 class="fr-card__lead">
+                    <a href="./projets/" class="fr-card__link">
+                        Les projets
+                    </a>
+                </h4>
+                <div class="fr-highlight">
+                    <p class="fr-card__desc">
+                    </p>
+                </div>
+                <p class="fr-card__desc center">
+                    <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                        Découvrir les projets
+                    </a>
+                </p>
+            </div>
+            <div class="fr-card__img no-pointer">
+                <img src="{{ .Site.BaseURL }}/img/visuel_programme_10_pourcent.png" title="Projets" alt="Illustration 10%" aria-hidden="true" role="presentation">
+            </div>
+        </div>
+
+
+
+        <div class="partenaires fr-px-3w">
+            <h2 class="fr-pt-3w fr-ml-0 fr-mt-0">
+                Nos partenaires
+            </h2>
+            <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+                <div class="fr-col-6 fr-col-lg-3">
+                    <div class="fr-tile fr-enlarge-link">
+                        <div class="fr-tile__img">
+                            <img src="{{ .Site.BaseURL }}/partenaires/dinum.svg" class="fr-responsive-img" alt="Logo DINUM" title="DINUM" style="max-width: 80px;">
+                        </div>
+                        <div class="fr-tile__body">
+                            <h4 class="fr-tile__title">
+                                <a class="fr-tile__link" href="https://www.numerique.gouv.fr/dinum/">Direction Interministérielle du Numérique</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-6 fr-col-lg-3">
+                    <div class="fr-tile fr-enlarge-link">
+                        <div class="fr-tile__img">
+                            <img src="{{ .Site.BaseURL }}/partenaires/insee.png" class="fr-responsive-img" alt="Logo INSEE" title="INSEE">
+                        </div>
+                        <div class="fr-tile__body">
+                            <h4 class="fr-tile__title">
+                                <a class="fr-tile__link" href="https://www.insee.fr/fr/accueil">INSEE</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</main>
+{{ end }}

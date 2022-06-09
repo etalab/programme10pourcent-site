@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@gouvfr/dsfr": "1.1.0",
+    "devtools-detect": "3.0.1"
+  }
+}

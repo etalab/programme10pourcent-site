@@ -1,0 +1,67 @@
+baseURL: "10pourcent.etalab.studio"
+title: "Programme 10%"
+description: "Programme de collaboration des experts de la donnée de l'Etat"
+theme: "design-system-gouvfr"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  images:
+    - img/opengraph.png
+
+module:
+    mounts:
+    - source: "themes/design-system-gouvfr/node_modules/@gouvfr/design-system/dist"
+      target: "static/design-system-gouvfr/"
+
+defaultContentLanguage: fr
+languages:
+  fr:
+    languageCode: "fr-FR"
+    contentDir: content/
+    languageName: Français
+    weight: 20
+    menu:
+      main:
+      - identifier: "accueil"
+        name: "Accueil"
+        title: "Accueil"
+        url: ""
+        weight: 80
+
+      - identifier: "programme"
+        name: "Programme"
+        title: "Le Programme"
+        url: "programme/"
+        weight: 90
+
+      - identifier: "actualites"
+        name: "Actualités"
+        title: "Actualités"
+        url: "actualites/"
+        weight: 100
+
+      - identifier: "projets"
+        name: "Les projets 10%"
+        title: "Les projets 10%"
+        url: "projets/"
+        weight: 110
+
+      - identifier: "equipe"
+        name: "Participants"
+        title: "Participants"
+        url: "equipe/"
+        weight: 120
+
+      - identifier: "ressources"
+        name: "Ressources"
+        title: "Ressources utiles"
+        url: "ressources/"
+        weight: 130
+
+      - identifier: "contact"
+        name: "Contact"
+        title: "Contact"
+        url: "/contact/"
+        weight: 140
