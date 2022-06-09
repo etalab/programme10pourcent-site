@@ -1,0 +1,218 @@
+<!doctype html><html lang=fr data-fr-theme=light>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://10pourcent.etalab.studio/design-system-gouvfr/css/dsfr.min.css>
+<title>SIRETisation | Programme 10%</title>
+<meta name=description content="La recherche du numéro SIRET d’immatriculation d’un établissement dans le répertoire administratif SIRENE de l&rsquo;INSEE à partir de son libellé et lieu géographique à l’aide des API actuelles ne donne pas toujours un résultat satisfaisant. Plusieurs administrations travaillent à améliorer cette recherche, le but de ce projet serait de répertorier les outils existants et de contribuer à de nouveaux développements. ">
+<link rel=canonical href=https://10pourcent.etalab.studio/projets/siretisation/>
+<link rel=icon href=https://10pourcent.etalab.studio/marianne.png type=image/png>
+<link rel=icon href=https://10pourcent.etalab.studio/marianne.svg>
+<link rel=icon href=https://10pourcent.etalab.studio/favicon-32.png type=image/png sizes=32x32>
+<link rel=icon href=https://10pourcent.etalab.studio/favicon-64.png type=image/png sizes=64x64>
+<meta property="og:title" content="SIRETisation">
+<meta property="og:description" content="La recherche du numéro SIRET d’immatriculation d’un établissement dans le répertoire administratif SIRENE de l&rsquo;INSEE à partir de son libellé et lieu géographique à l’aide des API actuelles ne donne pas toujours un résultat satisfaisant. Plusieurs administrations travaillent à améliorer cette recherche, le but de ce projet serait de répertorier les outils existants et de contribuer à de nouveaux développements.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://10pourcent.etalab.studio/projets/siretisation/"><meta property="og:image" content="https://10pourcent.etalab.studio/img/image-siret.png"><meta property="article:section" content="projets">
+<meta property="article:published_time" content="2022-05-18T13:00:00+01:00">
+<meta property="article:modified_time" content="2022-05-18T13:00:00+01:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://10pourcent.etalab.studio/img/image-siret.png">
+<meta name=twitter:title content="SIRETisation">
+<meta name=twitter:description content="La recherche du numéro SIRET d’immatriculation d’un établissement dans le répertoire administratif SIRENE de l&rsquo;INSEE à partir de son libellé et lieu géographique à l’aide des API actuelles ne donne pas toujours un résultat satisfaisant. Plusieurs administrations travaillent à améliorer cette recherche, le but de ce projet serait de répertorier les outils existants et de contribuer à de nouveaux développements.">
+<style>.fr-card__detail{order:0}.no-pointer{cursor:initial!important}.fr-breadcrumb{margin-top:0}#content p+ul{margin-top:-2rem}:root{--bs300:#d5dbef;--bs500:#5770be}:root:not([data-fr-theme=dark]) .fr-tile,:root:not([data-fr-theme=dark]) [class*="--scheme-light-"] .fr-tile,:root:not([data-fr-theme=dark]) [class*=fr-scheme-light] .fr-tile,:root:not([data-fr-theme=dark]) .fr-card,:root:not([data-fr-theme=dark]) [class*="--scheme-light-"] .fr-card,:root:not([data-fr-theme=dark]) [class*=fr-scheme-light] .fr-card{--color-hover:var(--bs300) !important;--color-active:var(--bs500) !important}.fr-card--horizontal .fr-card__img img{object-position:50% 0%}.fr-header .fr-nav__list{position:relative}.fr-header .fr-nav__list li.fr-nav__item--lang{position:absolute;right:0;border-left:1px solid var(--g300)}.fr-nav__item--lang{z-index:9999}.fr-header .fr-nav__list li.fr-nav__item--lang a{padding-left:1rem;padding-right:1rem;font-weight:400}.fr-tile{flex-direction:column}#content .fr-card{background-color:#fff;border:1px solid var(--bf500);border-bottom:5px solid var(--bf500)}#content p,#content ul{text-align:justify}#content h1{border-bottom:5px solid var(--bf500)}#content h2{border-bottom:3px solid var(--rm500)}#content h3{border-bottom:1px solid var(--bf500-plain)}main#homepage .catch-phrase{text-align:center;color:var(--bf500)!important;margin-top:2em;margin-bottom:1em;font-size:3.5em!important;font-weight:800!important;line-height:1.25!important}main#homepage .fr-card{background-color:#fff;margin-top:100px;margin-bottom:100px}main#homepage .fr-card:hover{background-image:none}main#homepage .fr-highlight{margin-bottom:1rem}main#homepage .fr-card__body::after{display:none}main#homepage .fr-card__img img{border-radius:100px;border:1px solid var(--g500)}main#homepage .fr-card__detail{text-align:right}main#homepage .fr-card__link{text-align:center;display:inline-block}main#homepage .fr-card__img img{border-radius:100px;border:1px solid var(--g500)}main#homepage .fr-card__detail{text-align:right}main#homepage .fr-card__link{text-align:center;display:inline-block}main#homepage .fr-card__link::before{display:none}main#homepage .revue-presse .fr-card__detail{margin-top:1rem;margin-bottom:.5rem}main#homepage .fr-tile{transition:transform 330ms;backface-visibility:hidden}main#homepage .fr-tile:hover{transform:scale(1.02)}@media(min-width:48em){.l-row-reverse{flex-direction:row}main#homepage .main .fr-card--horizontal .fr-card__body{flex-basis:50%}main#homepage .main .fr-card--horizontal .fr-card__img{width:50%;cursor:pointer}}.fr-tile{background-color:#fff!important;border:1px solid var(--bf500)!important}.fr-tile:hover{background-color:var(--color-hover)!important}.fr-tile:active{background-color:var(--color-active)!important}.fr-tile .fr-tile__img{width:8rem;height:8rem}.fr-tile__link{display:inline-block}@media(max-width:36em){.fr-tile__link{font-size:.9em}}.recrutements .fr-tile{transition:transform 330ms;backface-visibility:hidden}.recrutements .fr-tile:hover{transform:scale(1.02)}.summary-card{border:1px solid var(--g400)}@media(min-width:48em){.summary-card .fr-card__body{flex-basis:30%}.summary-card .fr-card__img{width:30%}}.justify{text-align:justify;text-indent:1.5rem}.center{text-align:center!important}.center img{margin:auto}.inline-center{display:inline-block;width:100%;text-align:center}</style>
+</head>
+<body><link rel=stylesheet href=https://10pourcent.etalab.studio/badge.patch.css>
+<header role=banner class=fr-header>
+<div class=fr-header__body>
+<div class=fr-container>
+<div class=fr-header__body-row>
+<div class="fr-header__brand fr-enlarge-link">
+<div class=fr-header__brand-top>
+<div class=fr-header__logo>
+<p class=fr-logo>Gouvernement</p>
+</div>
+<div class=fr-header__navbar>
+<button class="fr-btn--menu fr-btn" data-fr-opened=false aria-controls=modal-833 id=button-834 aria-haspopup=menu title=Menu>
+Menu
+</button>
+</div>
+</div>
+<div class=fr-header__service>
+<a href=https://10pourcent.etalab.studio title="Accueil - 10%">
+<p class=fr-header__service-title>
+Programme 10%
+<span class="fr-badge fr-badge--sm fr-badge--green-emeraude">BETA</span>
+</p>
+</a>
+<p class=fr-header__service-tagline><em>Un programme de collaboration interministérielle porté par Etalab</em></p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fr-header__menu fr-modal" id=modal-833 aria-labelledby=button-834>
+<div class=fr-container>
+<button class="fr-link--close fr-link" aria-controls=modal-833>Fermer</button>
+<div class=fr-header__menu-links></div>
+<nav class=fr-nav id=navigation-832 role=navigation aria-label="Menu principal">
+<ul class=fr-nav__list>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio title=Accueil target=_self>
+Accueil
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/programme/ title="Le Programme" target=_self>
+Programme
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/actualites/ title=Actualités target=_self>
+Actualités
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/projets/ title="Les projets 10%" target=_self>
+Les projets 10%
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/equipe/ title=Participants target=_self>
+Participants
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/ressources/ title="Ressources utiles" target=_self>
+Ressources
+</a>
+</li>
+<li class=fr-nav__item>
+<a class=fr-nav__link href=https://10pourcent.etalab.studio/contact/ title=Contact target=_self>
+Contact
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<div class=fr-container id=mainContainer role=main>
+<main id=content class=fr-py-3w>
+<nav role=navigation class=fr-breadcrumb aria-label="vous êtes ici :">
+<button class=fr-breadcrumb__button aria-expanded=false aria-controls=breadcrumb-1>Voir le fil d’Ariane</button>
+<div class=fr-collapse id=breadcrumb-1>
+<ol class=fr-breadcrumb__list>
+<li>
+<a class=fr-breadcrumb__link href=https://10pourcent.etalab.studiofr/>Accueil</a>
+</li>
+<li>
+<a class=fr-breadcrumb__link href=https://10pourcent.etalab.studio/projets/>Les projets 10%</a>
+</li>
+<li>
+<a class=fr-breadcrumb__link aria-current=page>
+SIRETisation</a>
+</li>
+</ol>
+</div>
+</nav>
+<h1>
+SIRETisation</h1>
+<p class=fr-card__desc>Porté par <b>Alexis Eidelman (DARES) + Etalab</b></p>
+<p class=fr-text--lead>
+La recherche du numéro SIRET d’immatriculation d’un établissement dans le répertoire administratif SIRENE de l&rsquo;INSEE à partir de son libellé et lieu géographique à l’aide des API actuelles ne donne pas toujours un résultat satisfaisant. Plusieurs administrations travaillent à améliorer cette recherche, le but de ce projet serait de répertorier les outils existants et de contribuer à de nouveaux développements.
+</p>
+<p class=center><img style=max-height:400px;max-width:100% src=https://10pourcent.etalab.studio/img/image-siret.png alt=SIRETisation></p>
+<div class=justify>
+<h5 id=les-objectifs>Les objectifs</h5>
+<p>Pour répondre à la problématique de cette «&#8239; sirétisation &#8239;», l’idée serait d’enrichir la base SIRENE à l’aide d&rsquo;informations contextuelles (libellé d&rsquo;usage, informations géographiques, etc.), produites généralement en interne par plusieurs administrations via des annotations ou des tableaux structurés contenant des listes d’entreprises et de métadonnées1 qui pourrait être mobilisées à cette fin d’amélioration du codage.</p>
+<p>Par exemple, pour un nom de marque franchisé qui n’existe pas tel quel dans le référentiel SIRENE, ce serait le bon numéro Siret de son gérant qui lui serait attribué (ce qui n&rsquo;est pas toujours le cas). On peut citer également l’exemple des changements de noms (rachat par une unité légale, cession, fusion, transfert, etc.) mais qui n’est pas appliqué instantanément dans les sources de données.</p>
+<p>Au final, il s’agirait de créer une version enrichie de SIRENE avec des alias d’usage, s’éloignant de la dénomination sociale proprement dite et de permettre aux administrations qui emploient parfois ces noms d&rsquo;usage de retrouver les entreprises qu&rsquo;elles recherchent.</p>
+<p>Un autre aspect de la «&#8239; sirétisation &#8239;» est son historique : les établissements peuvent évoluer assez rapidement dans le temps (rachat par une unité légale, cession, fusion, transfert, etc.), cette dimension peut alors faire évoluer les réponses, car elle entraine parfois un changement du numéro Siret.</p>
+<p>Il s’agit ensuite de permettre de requêter dans la base, en utilisant au mieux tous les éléments à notre disposition pour pouvoir nuancer le matching sur le nom&nbsp;: la recherche d’un établissement sur lequel on a quelques informations - mêmes imprécises - est en effet d’autant plus aisée que cette base de données de référence contient des informations sectorielles, géographiques, administratives, etc. qui aident à trancher des identifications ambiguës. Ces informations permettent non seulement d’éliminer des candidats inexacts issus d’une recherche flou «&#8239; fuzzy matching &#8239;», mais aussi d’imaginer des mots-clefs synonymes si la recherche par information-clef n’est pas concluante.</p>
+<h5 id=exemples-de-cas-dusage>Exemples de cas d&rsquo;usage</h5>
+<p>Cette problématique de SIRETisation est partagée par un très grand nombre d&rsquo;administrations. Parmi les très nombreux cas d&rsquo;usage on peut citer notamment&nbsp;:</p>
+<ul>
+<li>La statistique publique (INSEE, DREES, DARES, etc.)</li>
+<li>La SIRETisation des établissements de santé connus par leurs numéros FINES</li>
+<li>L&rsquo;évaluation de politiques publiques</li>
+</ul>
+<h5 id=domaines-techniques>Domaines techniques</h5>
+<ul>
+<li>Développement d&rsquo;API</li>
+<li>Recherche d&rsquo;information dans un index (par exemple via le moteur Elasticsearch)</li>
+</ul>
+<h5 id=les-profils-recherchés>Les profils recherchés</h5>
+<ul>
+<li>Compétences ponctuelles en ingénierie de données pour déterminer la structure que pourraient prendre ces tableaux de données.</li>
+<li>Expertise pour déterminer les meilleures métriques</li>
+<li>Compétences métiers pour déterminer des alias</li>
+<li>Gestion de projet</li>
+</ul>
+<h5 id=ressources-utiles>Ressources utiles</h5>
+<ul>
+<li>L&rsquo;API SIRENE de l&rsquo;INSEE&nbsp;: <a href=https://api.insee.fr/catalogue/>catalogue des API de l&rsquo;INSEE</a></li>
+<li>La solution SocialGouv du Ministère du Travail&nbsp;: <a href=https://github.com/SocialGouv/recherche-entreprises>lien github</a> et <a href=https://recherche-entreprises.fabrique.social.gouv.fr/>interface de SocialGouv</a></li>
+<li>Le catalogue des entreprises (bientôt plus maintenu&#8239;?): (<a href=https://entreprise.api.gouv.fr/catalogue/>https://entreprise.api.gouv.fr/catalogue/</a>)</li>
+<li>L&rsquo;API «&#8239;Annuaire Entreprises&#8239;» développée à Etalab qui repose sur une base de données nourrie avec SIREN et un moteur Elastic search&nbsp;: <a href=https://annuaire-entreprises.data.gouv.fr/>Annuaire Entreprise</a></li>
+<li>Le projet Insee AMI IA «&#8239;Améliorer l’identification de l’établissement employeur dans le recensement de la population&#8239;»&nbsp;: <a href=https://www.etalab.gouv.fr/intelligence-artificielle-decouvrez-les-15-nouveaux-projets-selectionnes/>description du projet</a></li>
+<li>Potentiellement l&rsquo;API Entreprises, qui s&rsquo;adresse aux entreprises qui veulent obtenir des informations les concernant&nbsp;: <a href=https://entreprise.api.gouv.fr/catalogue/>API entreprise</a></li>
+</ul>
+</div>
+</main>
+</div><footer class="fr-footer fr-px-3w" role=contentinfo>
+<div class=fr-container>
+<div class=fr-footer__body>
+<div class="fr-footer__brand fr-enlarge-link">
+<a href=https://www.gouvernement.fr/ title=Gouvernement>
+<p class=fr-logo title=Gouvernement>Gouvernement</p>
+</a>
+</div>
+<div class=fr-footer__content>
+<p class=fr-footer__content-desc>
+Etalab est un département de la DINUM.
+</p>
+<ul class=fr-footer__content-list>
+<li class=fr-footer__content-item>
+<a class=fr-footer__content-link href=https://legifrance.gouv.fr>legifrance.gouv.fr</a>
+</li>
+<li class=fr-footer__content-item>
+<a class=fr-footer__content-link href=https://gouvernement.fr>gouvernement.fr</a>
+</li>
+<li class=fr-footer__content-item>
+<a class=fr-footer__content-link href=https://service-public.fr>service-public.fr</a>
+</li>
+<li class=fr-footer__content-item>
+<a class=fr-footer__content-link href=https://data.gouv.fr>data.gouv.fr</a>
+</li>
+</ul>
+</div>
+</div>
+<div class=fr-footer__bottom>
+<ul class=fr-footer__bottom-list>
+<li class=fr-footer__bottom-item>
+<a class=fr-footer__bottom-link href=https://10pourcent.etalab.studio/donnees-personnelles/>Données personnelles et cookies</a>
+</li>
+<li class=fr-footer__bottom-item>
+<a class=fr-footer__bottom-link href=https://10pourcent.etalab.studio/contact/>Contact</a>
+</li>
+<li class=fr-footer__bottom-item>
+<a class=fr-footer__bottom-link href=https://10pourcent.etalab.studio/mentions-legales/>Mentions légales</a>
+</li>
+<li class=fr-footer__bottom-item>
+<a class=fr-footer__bottom-link href=https://10pourcent.etalab.studio/accessibilite/>Accessibilité : pas encore audité</a>
+</li>
+</ul>
+<div class=fr-footer__bottom-copy>
+<p>© Etalab 2022</p>
+</div>
+</div>
+</div>
+</footer>
+<script type=module src=https://10pourcent.etalab.studio/design-system-gouvfr/js/dsfr.module.min.js></script>
+<script type=text/javascript nomodule src=https://10pourcent.etalab.studio/design-system-gouvfr/js/dsfr.nomodule.min.js></script>
+<script src=https://10pourcent.etalab.studio/devtools-detect.js></script>
+<script type=text/javascript src=https://tag.aticdn.net/613881/smarttag.js></script>
+<script type=text/javascript>(function(){var a=new ATInternet.Tracker.Tag({disableCookie:!0});a.page.send({name:'SIRETisation'})})()</script>
+</body>
+</html>
