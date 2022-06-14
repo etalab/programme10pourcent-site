@@ -1,6 +1,6 @@
 ---
 title: "Analyse de corpus de textes juridiques à partir de la brique PIAF"
-summary: Le projet vise à développer un moteur de recherche sémantique appliqué au corpus de conditions générales d'utilisation en français des services en ligne collecté par [OpenTermsArchive](https://opentermsarchive.org/fr). Sur le modèle de [PIAF appliqué au corpus service-public.fr](https://github.com/etalab-ia/piaf_agent), cet outil devrait permettre d'explorer et de comparer plus facilement les mentions légales de différents services en ligne. 
+summary: Le projet vise à développer un moteur de recherche sémantique appliqué au corpus de conditions générales d'utilisation en français des services en ligne collecté par [Open Terms Archive](https://opentermsarchive.org/fr). Sur le modèle de [PIAF appliqué au corpus service-public.fr](https://github.com/etalab-ia/piaf_agent), cet outil devrait permettre d'explorer et de comparer plus facilement les mentions légales de différents services en ligne. 
 responsible: Lucas Verney (PEReN)
 date: 2022-05-18T13:00:00+01:00
 images: 
@@ -25,6 +25,7 @@ En s'appuyant sur le corpus des conditions générales d'utilisation en françai
 * Développeur 
 
 ##### Ressources utiles 
-* La consolidation du dataset est effectuée en continu par OpenTermsArchive : https://opentermsarchive.org/fr.
+* La consolidation du dataset est effectuée en continu par Open Terms Archive 
+: https://opentermsarchive.org/fr.
 * Une bibliographie d'outils similaires sur lesquels pourraient s'appuyer ce projet a été réalisée, notamment https://usableprivacy.org/ (en anglais).
 
