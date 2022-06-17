@@ -5,7 +5,7 @@ summary: Rassembler les données géographiques de l'IGN et les référentiels a
 
 responsible: Lino Galiana (INSEE)
 images: 
-- /img/image-ign-insee.png
+- /img/image-ign-insee2.png
 ---
  
 #### La problématique identifiée:

@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="{{ .Site.BaseURL }}/design-system-gouvfr/css/dsfr.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/design-system-gouvfr/dsfr.min.css">
 <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
 <link rel="canonical" href="{{ .Permalink }}" />
@@ -121,21 +121,6 @@
         display: none; /* No arrows */
     }
     main#homepage .fr-card__img img {
-        border-radius: 100px;
-        border: 1px solid var(--g500);
-    }
-
-    main#homepage .fr-card__detail {
-        text-align: right;
-    }
-
-    main#homepage .fr-card__link {
-        text-align: center;
-        display: inline-block;
-    }
-
-    main#homepage .fr-card__img img {
-        border-radius: 100px;
         border: 1px solid var(--g500);
     }
 
@@ -165,6 +150,7 @@
         transform: scale(1.02);
     }
 
+
     @media (min-width:48em) {
         .l-row-reverse {
             flex-direction: row;
@@ -177,6 +163,14 @@
         main#homepage .main .fr-card--horizontal .fr-card__img {
             width: 50%;
             cursor: pointer;
+        }
+        .summary-card .fr-card__body {
+            flex-basis: 30%;
+        }
+
+        .summary-card .fr-card__img {
+            width: 35%;
+            height: auto;
         }
     }
 
@@ -214,16 +208,6 @@
     /** Summary card */
     .summary-card {
         border: 1px solid var(--g400);
-    }
-
-    @media (min-width:48em) {
-        .summary-card .fr-card__body {
-            flex-basis: 30%;
-        }
-
-        .summary-card .fr-card__img {
-            width: 30%;
-        }
     }
 
     /** Text alignment */

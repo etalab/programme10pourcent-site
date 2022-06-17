@@ -47,13 +47,6 @@
         </div>
     </div>
 </footer>
-<script type="module" src="{{ .Site.BaseURL }}/design-system-gouvfr/js/dsfr.module.min.js"></script>
-<script type="text/javascript" nomodule src="{{ .Site.BaseURL }}/design-system-gouvfr/js/dsfr.nomodule.min.js"></script>
+<script type="module" src="{{ .Site.BaseURL }}/design-system-gouvfr/dsfr.module.min.js"></script>
+<script type="text/javascript" nomodule src="{{ .Site.BaseURL }}/design-system-gouvfr/dsfr.nomodule.min.js"></script>
 <script src="{{ .Site.BaseURL }}/devtools-detect.js"></script>
-<script type="text/javascript" src="https://tag.aticdn.net/613881/smarttag.js"></script>
-<script type="text/javascript">
-(function () {
-    var ATTag = new ATInternet.Tracker.Tag({disableCookie: true});
-    ATTag.page.send({name:'{{ .Title }}'});
-})();
-</script>

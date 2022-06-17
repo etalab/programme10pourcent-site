@@ -4,7 +4,7 @@ slug: lancement-programme
 date: 2022-05-05T13:00:00+01:00
 summary: En 2022, la DINUM lance le programme 10%, qui vise à encourager le travail entre pairs en permettant aux experts de la donnée de la sphère publique de consacrer 10% de leur temps de travail à des projets d’intérêt partagé à l’échelle interministérielle. 
 images: 
-    - /img/visuel_programme_10_pourcent.png
+    - /img/croped10pourcent.png
 ---
 
 Suite au rapport INSEE-DINUM, la DINUM lance en 2022 le programme 10%.

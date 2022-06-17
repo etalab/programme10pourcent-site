@@ -18,24 +18,22 @@
             {{ range where .Pages "Title" "!=" "actualites" }}
             <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
                 <div class="fr-card__body">
-                    <h4 class="fr-card__lead" style="margin-top: 0;">
+                    <h4 class="fr-card__lead" style="margin-top: 20px;">
                         <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
                     </h4>
                     <div class="fr-highlight">
                         <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
                     </div>
-                    <div class="fr-highlight">
-                        <p class="fr-card__desc">{{ .Params.Responsible | markdownify }}</p>
-                    </div>
+
                     <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
-                    <p class="fr-card__detail center">
+                    <p class="fr-card__detail">
                         <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
                             Lire la suite
                         </a>
                     </p>
                 </div>
                 <div class="fr-card__img no-pointer">
-                    <img src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
+                    <img style="height: 350px;width: 550px;" src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
                         title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
                 </div>
             </div>
@@ -45,23 +43,24 @@
 
         <div class="fr-card fr-card--horizontal">
             <div class="fr-card__body">
-                <h4 class="fr-card__lead">
+                <h4 class="fr-card__lead" style="margin-top: 20px;">
                     <a href="./projets/" class="fr-card__link">
                         Les projets
                     </a>
                 </h4>
                 <div class="fr-highlight">
                     <p class="fr-card__desc">
-                    </p>
+                        La première édition du programme 10% propose six projets à visée open-source aux experts publics de la donnée qui souhaitent collaborer sur des problématiques transverses aux services de l'Etat.</p>
                 </div>
-                <p class="fr-card__desc center">
+                <p class="fr-card__detail">
+
                     <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
                         Découvrir les projets
                     </a>
-                </p>
+                    </p>
             </div>
             <div class="fr-card__img no-pointer">
-                <img src="{{ .Site.BaseURL }}/img/visuel_programme_10_pourcent.png" title="Projets" alt="Illustration 10%" aria-hidden="true" role="presentation">
+                <img style="height: 350px; width: 550px;" src="{{ .Site.BaseURL }}/img/croped10pourcent.png" title="Projets" alt="Illustration 10%" aria-hidden="true" role="presentation">
             </div>
         </div>
 

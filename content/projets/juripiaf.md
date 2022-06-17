@@ -4,7 +4,7 @@ summary: Le projet vise à développer un moteur de recherche sémantique appliq
 responsible: Lucas Verney (PEReN)
 date: 2022-05-18T13:00:00+01:00
 images: 
-- /img/image-nlp.png
+- /img/image-nlp2.png
 ---
 
 ##### Les objectifs 
