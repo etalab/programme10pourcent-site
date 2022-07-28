@@ -8,8 +8,8 @@
             <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
         </h4>
         <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
+        <p class="fr-card__desc">{{if .Params.Github }}Code source : <a link="{{ .Params.Github}}">{{ .Params.Github | markdownify }}</a>{{end}} </p>
         <p class="fr-card__desc">{{if .Params.Responsible }}Porté par{{end}} <b>{{ .Params.Responsible | markdownify }}</b></p>
-
     </div>
 </div>
 

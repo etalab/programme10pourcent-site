@@ -3,6 +3,7 @@ title: "OCR et extraction d'informations à partir de documents administratifs"
 summary: Les administrations ont régulièrement besoin d’exploiter en masse des documents administratifs sous des formats non directement exploitables (PDF scannés, images, etc.). L’information contenue dans ces documents, pour être exploitée, doit passer par une étape d'extraction et de structuration de l’information, qui est vite très chronophage si elle doit être réalisée à la main.
 responsible: Kim Montalibet (Etalab)
 date: 2022-05-18T13:00:00+01:00
+github: https://github.com/etalab-ia/Socratext
 images: 
 - /img/image-ocr2.png
 ---
