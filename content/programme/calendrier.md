@@ -12,8 +12,8 @@ images:
 Bootcamp afin de finaliser les projets, dresser un bilan des réalisations et d'éventuelles prochaines étapes. 
 
 #### Formations proposées pendant les sessions de travail
-* Mardi 6 septembre à 14h : Formation au déploiement d'applications sur Onyxia, animée par le SSP Datalab de l'INSEE
-* Mardi 20 septembre à 14h : Formation au MlOps avec MLFlow, animée par Pengfei Liu
+* Mardi 6 septembre à 14h : Formation au déploiement Docker sur Onyxia, animée par le SSP Datalab de l'INSEE
+* Mardi 20 septembre à 14h : Formation au MLOps avec MLFlow, animée par Pengfei Liu
 
 #### De juin à novembre 2022: Ateliers de travail tous les 15 jours 
 Tous les 15 jours, au Lieu de la transformation publique de 13h30 à 18h30. 
