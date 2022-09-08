@@ -10,7 +10,7 @@ description: Ressources partagées
 Une formation au déploiement d'applications sur Onyxia a été animée par Olivier Levitt du SSP Datalab de l'INSEE le 6 septembre. 
 Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/ade4c7c2d1cdb8bf7e0adedcc5924b298eecf558-1662466791727) et consulter le [répertoire Github associé](https://github.com/olevitt/demo-deploiement). 
 
-#### Formation (à venir) au MLOps avec MLFlow
+##### Formation (à venir) au MLOps avec MLFlow
 Formation prévue le 20 septembre à 14h, animée par Pengfei Liu
 Ressources à venir.
 
