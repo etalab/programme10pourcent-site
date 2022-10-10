@@ -54,14 +54,20 @@ languages:
         url: "equipe/"
         weight: 120
 
+      - identifier: "formations"
+        name: "Les formations"
+        title: "Les formations"
+        url: "formations/"
+        weight: 130
+
       - identifier: "ressources"
         name: "Ressources"
         title: "Ressources utiles"
         url: "ressources/"
-        weight: 130
+        weight: 140
 
       - identifier: "contact"
         name: "Contact"
         title: "Contact"
-        url: "/contact/"
-        weight: 140
+        url: "contact/"
+        weight: 150
