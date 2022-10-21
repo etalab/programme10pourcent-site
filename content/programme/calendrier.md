@@ -14,6 +14,7 @@ Bootcamp afin de finaliser les projets, dresser un bilan des réalisations et d'
 #### Formations proposées pendant les sessions de travail
 * Mardi 6 septembre à 14h : Formation au déploiement Docker sur Onyxia, animée par le SSP Datalab de l'INSEE
 * Mardi 20 septembre à 14h : Formation au MLOps avec MLFlow, animée par Pengfei Liu
+* Mardi 8 novembre à 14h; Formation au Testing des modèles de Machine Learning, animée par Jean-Marie John-Mathews de Giskard
 
 #### De juin à novembre 2022: Ateliers de travail tous les 15 jours 
 Tous les 15 jours, au Lieu de la transformation publique de 13h30 à 18h30. 
