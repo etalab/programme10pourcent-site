@@ -2,7 +2,7 @@
 title: "SIRETisation"
 date: 2022-05-18T13:00:00+01:00
 responsible: Pierre-Etienne Devineau (Etalab)
-summary: La recherche du numéro SIRET d’immatriculation d’un établissement dans le répertoire administratif SIRENE de l'INSEE à partir de son libellé et lieu géographique à l’aide des API actuelles ne donne pas toujours un résultat satisfaisant. Plusieurs administrations travaillent à améliorer cette recherche, le but de ce projet serait de répertorier les outils existants et de contribuer à de nouveaux développements.
+summary: Contrairement à l'usage commun, l'identification d'une entreprise ne peut pas s'appuyer aujourd'hui sur les données "de terrain" (le nom commercial, la localisation ou le secteur d'activité), mais doit s'appuyer sur le numéro de SIRET. Ce projet vise à permettre de remonter à l'identifiant exact d'une entreprise à partir de ces informations de terrain.
 github: https://github.com/etalab/matchSIRET
 images: 
 - /img/image-siret2.png
