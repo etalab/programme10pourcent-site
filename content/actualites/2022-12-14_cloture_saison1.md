@@ -7,3 +7,5 @@ summary: Découvrer l'article sur le bilan de la saison 1 sur le [blog d'Etalab]
 images: 
     - /img/bilan_saison1.png
 ---
+
+Découvrer l'article sur le bilan de la saison 1 sur le [blog d'Etalab](https://etalab.gouv.fr/programme-10-bilan-de-la-saison-1/). 
