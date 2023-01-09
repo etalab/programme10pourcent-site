@@ -11,9 +11,9 @@ Ce site est édité par la Direction Interministérielle du Numérique (DINUM), 
 Tel. accueil : 01.71.21.01.70<br>
 SIREN : 130 025 265 (DINUM)<br></p>
 
-#### Directeur de publication
+#### Direction de publication
 
-Xavier ALBOUY, directeur adjoint de la Direction Interministérielle du Numérique et directeur par intérim de la DINUM.
+Stéphanie SCHAER, directrice de la Direction Interministérielle du Numérique.
 
 #### Gestionnaire des statistiques
 
