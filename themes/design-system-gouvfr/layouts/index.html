@@ -16,34 +16,6 @@
             Le programme 10% est une expérimentation qui vise à encourager le travail entre pairs en permettant aux experts de la donnée de la sphère publique de consacrer 10% de leur temps de travail à des projets d’intérêt partagé à l’échelle interministérielle.
         </h6>
 
-
-        {{ range $index, $element := (where .Site.Pages "Section" "actualites") }}
-            {{ range where .Pages "Title" "!=" "actualites" }}
-            <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
-                <div class="fr-card__body">
-                    <h4 class="fr-card__lead" style="margin-top: 20px;">
-                        <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
-                    </h4>
-                    <div class="fr-highlight">
-                        <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
-                    </div>
-
-                    <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
-                    <p class="fr-card__detail">
-                        <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                            Lire la suite
-                        </a>
-                    </p>
-                </div>
-                <div class="fr-card__img no-pointer">
-                    <img style="height: 350px;width: 550px;" src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
-                        title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
-                </div>
-            </div>
-            {{ end }}
-        {{ end }}
-
-
         <div class="fr-card fr-card--horizontal">
             <div class="fr-card__body">
                 <h4 class="fr-card__lead" style="margin-top: 20px;">
@@ -71,7 +43,7 @@
 
         <div class="partenaires fr-px-3w">
             <h2 class="fr-pt-3w fr-ml-0 fr-mt-0">
-                Nos partenaires
+                Les organisateurs du programme
             </h2>
             <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
                 <div class="fr-col-6 fr-col-lg-3">
