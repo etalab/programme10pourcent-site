@@ -12,7 +12,7 @@ Suite au rapport INSEE-DINUM, la DINUM lance en 2022 le programme 10%.
 #### Contexte et objectifs du programme 
 A l’issue d’une mission conjointe conduite entre février et juin 2021, la DINUM et l’INSEE ont publié le 27 septembre 2021 un rapport sur l’évaluation des besoins de l’État en compétences et expertises en matière de donnée. Ce dernier préconise d’expérimenter en 2022 la possibilité pour les experts de la donnée de consacrer au moins 10 % de leur temps de travail à des projets d’intérêt partagé à une échelle interministérielle.
 Le rapport préconise ainsi de mettre en place une communauté d’une « centaine d’experts de la donnée contribuant à des projets de data science qui pourraient ainsi s’entraider et contribuer à l’échange de pratiques entre pairs, à la réalisation d’outils communs ou à construire des ressources pour aider les administrations à définir, piloter et évaluer des projets de data science ».
-L’objectif de cette expérimentation est triple : 
+L’objectif de cette collaboration est triple : 
 * Encourager le travail interministériel entre pairs ;
 * Renforcer l’attractivité de l’État-employeur et faciliter la mobilité entre ministères ;
 * Fidéliser les experts de la donnée déjà en poste.
