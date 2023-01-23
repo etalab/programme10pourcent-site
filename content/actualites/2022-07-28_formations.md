@@ -7,7 +7,7 @@ images:
     - /img/formations.jpg
 ---
 
-### Deux formations en septembre afin d'appuyer la mise en oeuvre des projets 10%
+### Deux nouvelles formations en septembre 2022 afin d'appuyer la mise en oeuvre des projets 10%
 
 #### Formation le 6 septembre : Introduction et bonnes pratiques du déploiement Docker avec le SSP Cloud
 *Au Lieu de la tranformation publique à 14h, le reste de la session sera consacrée au travail sur les projets.*
