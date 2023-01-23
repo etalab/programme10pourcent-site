@@ -24,9 +24,9 @@ languages:
     weight: 20
     menu:
       main:
-      - identifier: "accueil"
-        name: "Accueil"
-        title: "Accueil"
+      - identifier: "programme"
+        name: "Programme"
+        title: "Programme"
         url: ""
         weight: 80
 
@@ -37,14 +37,14 @@ languages:
         weight: 90
 
       - identifier: "projets"
-        name: "Les projets 10%"
-        title: "Les projets 10%"
+        name: "Portefeuille de projets"
+        title: "Portefeuille de projets"
         url: "projets/"
         weight: 100
 
       - identifier: "formations"
-        name: "Les formations"
-        title: "Les formations"
+        name: "Formations"
+        title: "Formations"
         url: "formations/"
         weight: 110
 
