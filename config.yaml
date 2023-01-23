@@ -30,44 +30,26 @@ languages:
         url: ""
         weight: 80
 
-      - identifier: "programme"
-        name: "Programme"
-        title: "Le Programme"
-        url: "programme/"
-        weight: 90
-
       - identifier: "actualites"
         name: "Actualités"
         title: "Actualités"
         url: "actualites/"
-        weight: 100
+        weight: 90
 
       - identifier: "projets"
         name: "Les projets 10%"
         title: "Les projets 10%"
         url: "projets/"
-        weight: 110
-
-      - identifier: "equipe"
-        name: "Participants"
-        title: "Participants"
-        url: "equipe/"
-        weight: 120
+        weight: 100
 
       - identifier: "formations"
         name: "Les formations"
         title: "Les formations"
         url: "formations/"
-        weight: 130
-
-      - identifier: "ressources"
-        name: "Ressources"
-        title: "Ressources utiles"
-        url: "ressources/"
-        weight: 140
+        weight: 110
 
       - identifier: "contact"
         name: "Contact"
         title: "Contact"
         url: "contact/"
-        weight: 150
+        weight: 120
