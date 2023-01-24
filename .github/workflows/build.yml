@@ -38,25 +38,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: pages
-
-  deploy:
-    runs-on: ubuntu-20.04
-    needs: build
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          ref: pages
-
-      - name: Compute latest commit
-        id: vars
-        run: echo ::set-output name=ci_commit::$(git rev-parse pages)
-
-      - name: Deploy
-        uses: dokku/github-action@v1.0.2
-        with:
-          ci_commit: ${{ steps.vars.outputs.ci_commit }}
-          ci_branch_name: pages
-          git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
-          ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
-          git_push_flags: "--force"
+          destination_dir: dist
