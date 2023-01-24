@@ -1,0 +1,46 @@
+---
+title: "Lancement de la saison 2023"
+slug: saison2
+date: 2023-01-24T13:00:00+01:00
+summary: Saison 2023
+images: 
+    - /img/photo_atelier_ideation.jpg
+---
+
+Lancée en 2022, le programme 10% est une collaboration co-portée par la Dinum et l'INSEE. Le principe est simple : encourager les talents de la data au sein de l'Etat à consacrer une partie de leur temps de travail à des projets d'intérêt commun. 
+
+En intégrant la communauté 10%, les experts publics de la donnée bénéficient d'échanges de pratiques entre pairs, d'un partage de compétences, de formations et moments informels. 
+
+
+**Bilan de la saison 1 (2022)**
+La première saison du programme 10% a permis de créer une communauté d'une cinquantaine d’experts de la donnée de l'Etat, représentant une dizaine de ministères. Les talents de la data se sont réunis sur 10 ateliers en présentiel, pendant 6 mois de autour de 4 projets d’intérêt commun et ont bénéficié de 4 formations spécialisées. 
+Pour tout savoir sur la saison 1 du programme 10% : https://www.etalab.gouv.fr/programme-10-bilan-de-la-saison-1/
+
+**Le lancement de la saison 2 (2023)**
+Fort de cette nouvelle communauté, le programme 10% lance sa saison 2 !
+
+**1. Le déroulé de la saison 2023**
+
+La participation au programme 10% représente deux ateliers par mois (en présentiel ou en distanciel) et des moments de partage entre ces ateliers. 
+
+Le programme 10% repose sur le volontariat. Vous venez quand vous voulez et quand vous pouvez ! Grâce à un onbording en continu, vous pourrez intégrer la communauté à tout moment. 
+
+**2. Les nouveautés de la saison 2** 
+Grâce aux retours d'expérience des participants de la saison 1, la nouvelle saison du programme 10% entend renforcer certains axes et proposer des nouveautés pour correspondre au mieux aux attentes des participants :
+- Renforcer les formations en proposant non seulement de monter en compétence sur des sujets experts (IA et data) mais aussi des formations généralistes tout aussi importantes pour évoluer (prise de parole, gestion de projets ...);
+- Ouvrir la communauté à d'autres communautés telles que beta.gouv, Latitudes, Data For Good ...;
+- Renforcer les moments informels pour permettre aux experts publics de la donnée de renforcer les liens entre eux;
+
+**3. Les temps forts de l'année 2023**
+Le programme 10% est basé sur le volontariat. Vous venez quand vous pouvez et quand vous voulez ! Concrétement, la participation représente deux après-midi par mois (en présentiel ou en distanciel) et des moments de partage entre les équipes entre ces ateliers.
+
+Les ateliers sont ponctués de formations, partage de partiques et méthodologies, moments informels selon vos besoins et envies. 
+
+**3. Les temps forts de la saison 2023**
+
+Ne rater pas le webinaire d'information sur le lancement de la saison 2 : lien d'inscription. 
+
+Le calendrier complet de l'année 2023 : 
+
+
+
