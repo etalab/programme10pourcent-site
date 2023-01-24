@@ -53,3 +53,9 @@ languages:
         title: "Contact"
         url: "contact/"
         weight: 120
+
+      - identifier: "rejoindre"
+        name: "Rejoignez-nous"
+        title: "Rejoignez-nous"
+        url: "rejoindre/"
+        weight: 120
