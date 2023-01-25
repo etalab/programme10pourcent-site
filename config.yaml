@@ -37,8 +37,8 @@ languages:
         weight: 90
 
       - identifier: "projets"
-        name: "Portefeuille de projets"
-        title: "Portefeuille de projets"
+        name: "Projets 10%"
+        title: "Projets 10%"
         url: "projets/"
         weight: 100
 
