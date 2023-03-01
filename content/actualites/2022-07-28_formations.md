@@ -1,6 +1,6 @@
 ---
 title: "Découvrez les prochaines formations"
-slug: formations
+slug: formations2022
 date: 2022-07-28T13:00:00+01:00
 summary: Formations pour monter en compétence sur le déploiement Docker et le MLOps
 images: 
