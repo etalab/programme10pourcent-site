@@ -5,7 +5,7 @@ description: Formations dispensées dans le cadre du programme
 
 ## Saison 2023
 
-Une formation à la collecte de besoins **"Comment identifier un bon problème ?"** a été donnée par Damien Dufourd le 14 mars 2023.  Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1678799130836)
+Une formation à la collecte de besoins **"Comment identifier un bon problème ?"** a été donnée par Damien Dufourd le 14 mars 2023.  Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1678799130836) et consulter [le support de présentation](https://speakerdeck.com/etalabia/formation-beta-dot-gouv-dot-fr-comment-identifier-un-bon-probleme). 
 
 
 ## Saison 2022
