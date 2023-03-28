@@ -4,7 +4,7 @@ slug: newsletter1
 date: 2023-03-28T13:00:00+01:00
 summary: Newsletter mars 2023
 images: 
-    - /img/photo_atelier_ideation.jpg
+    - /img/newsletter-du-programme-10_200.png
 ---
 
 ## 1. A l'agenda
