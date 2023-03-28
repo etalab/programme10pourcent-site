@@ -34,7 +34,7 @@ L’occasion de découvrir l’action numérique de l’État :
 ## 2. Retour sur l'atelier 10% du 14 mars
 Plus d’une trentaine d’experts de la donnée de l’Etat étaient réunis au Lieu de la Transformation publique le 14 mars dernier. L’occasion pour la communauté 10% de s’ouvrir à d’autres méthodes de travail, un des axes fort de la saison 2. Damien Dufourd, coach agile chez Beta est venu présenter la méthode beta pour identifier un "bon problème". A l’aide de cas pratiques, les participants ont été aménés à bien cerner un problème réel, majeur et actionnable.
 
-<img src="[image name](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/ea72958e-705f-4b76-ac2e-ddc9963125ec.jpg)" alt= “” width="30%" height="30%">
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/ea72958e-705f-4b76-ac2e-ddc9963125ec.jpg" alt= “” width="30%" height="30%">
 
 Le replay de la formation : https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1678799130836
 et l'accès à la présentation : 
