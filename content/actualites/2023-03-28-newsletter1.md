@@ -34,7 +34,7 @@ L’occasion de découvrir l’action numérique de l’État :
 ## 2. Retour sur l'atelier 10% du 14 mars
 Plus d’une trentaine d’experts de la donnée de l’Etat étaient réunis au Lieu de la Transformation publique le 14 mars dernier. L’occasion pour la communauté 10% de s’ouvrir à d’autres méthodes de travail, un des axes fort de la saison 2. Damien Dufourd, coach agile chez Beta est venu présenter la méthode beta pour identifier un "bon problème". A l’aide de cas pratiques, les participants ont été aménés à bien cerner un problème réel, majeur et actionnable.
 
-<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/ea72958e-705f-4b76-ac2e-ddc9963125ec.jpg" alt= “” width="70%" height="70%">
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/ea72958e-705f-4b76-ac2e-ddc9963125ec.jpg" alt= “” width="60%" height="60%">
 
 Le replay de la formation : https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1678799130836
 et l'accès à la présentation : 
@@ -49,24 +49,23 @@ La dynamique est désormais lancée sur les projets 10% en lice pour la saison 2
 
 Transformers : une IA open-source pour l’analyse de texte par les administrations.
 
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/a55e97fc-2a84-421c-821f-91eded1fad06.jpg)
-
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/a55e97fc-2a84-421c-821f-91eded1fad06.jpg" alt= “” width="60%" height="60%">
 
 PoufDoc : l’outil pour aider les administrations dans leur production récurrente de rapports.
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/74e44be1-6499-4fbd-a943-31f81d2e74e7.jpg)
 
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/74e44be1-6499-4fbd-a943-31f81d2e74e7.jpg" alt= “” width="60%" height="60%">
 
 Cartiflette : un outil facilitant la récupération de fonds de carte officiels pour réaliser des cartes géographiques.
 
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/059dc388-93ca-4150-955c-0321f7b7a984.jpg)
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/059dc388-93ca-4150-955c-0321f7b7a984.jpg" alt= “” width="60%" height="60%">
 
 ChartsGouv : l’outil de visualisation des données de l’Etat.
 
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/4adb71a5-75be-42f3-b3e6-2a8d84eed681.jpg)
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/4adb71a5-75be-42f3-b3e6-2a8d84eed681.jpg" alt= “” width="60%" height="60%">
 
 Impact environnemental : Former à l’impact environnemental et mesurer celui des projets 10%
 
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/f36a61ff-0ff9-4fff-b096-5e64d98feb34.jpg)
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/f36a61ff-0ff9-4fff-b096-5e64d98feb34.jpg" alt= “” width="60%" height="60%">
 
 Datanonyme : l’outil pour aider les administrations à anonymiser leurs données.
 
@@ -85,8 +84,8 @@ Vous pouvez nous contacter : lab-ia@data.gouv.fr
 
 
 ## 3. Zoom sur un projet 10% : OCR 
-![](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/bb4562f3-a694-453a-b0d4-57e5c200e6ec.jpg)
 
+<img src="https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/bb4562f3-a694-453a-b0d4-57e5c200e6ec.jpg" alt= “” width="60%" height="60%">
 
 Les administrations ont régulièrement besoin d’exploiter en masse des documents administratifs sous des formats non directement exploitables (PDF scannés, images ...), par exemple, les dossiers de demandeurs d'emploi, les dossiers logement... L’information contenue dans ces documents, pour être exploitée, doit passer par une étape d'extraction et de structuration de l’information, qui est vite très chronophage si elle doit être réalisée à la main.
 C'est tout l'enjeu du projet OCR : une solution pour extraire automatiquement des informations contenues dans des documents non directement exploitables (PDF, images, photos …). 
