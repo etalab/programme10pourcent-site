@@ -207,14 +207,14 @@ Lancé en 2022, le programme 10%, co-porté par la Dinum en association avec l'I
 Intégrer la communauté 10%, c'est aussi monter en compétence grâce à des formations, échanger entre pairs et partager des moments informels autour de valeurs communes.
 
 En 2023, 8 projets font l'objet d'une collaboration de la communuté 10% :
-▶️Transformers : une IA open-source pour l’analyse de texte par les administrations.
-▶️ChartsGouv : l’outil de visualisation des données de l’État.
-▶️Datanonyme : l’outil pour aider les administrations à anonymiser leurs données.
-▶️OCR 2023 : l’outil pour aider les administrations à extraire des informations de documents difficilement exploitables.
-▶️Cartiflette : un outil facilitant la réalisation de cartes géographiques grâce à la récupération de fonds de cartes produits par des acteurs publics.
-▶️Impact environnemental : former à l’impact environnemental et mesurer celui des projets 10%.
-▶️PoufDoc : l’outil pour aider les administrations dans leur production récurrente de rapports.
-▶️Le moteur de recherche des datascientists de l’État par organisations, missions et compétences.
+* Transformers : une IA open-source pour l’analyse de texte par les administrations.
+* ChartsGouv : l’outil de visualisation des données de l’État.
+* Datanonyme : l’outil pour aider les administrations à anonymiser leurs données.
+* OCR 2023 : l’outil pour aider les administrations à extraire des informations de documents difficilement exploitables.
+* Cartiflette : un outil facilitant la réalisation de cartes géographiques grâce à la récupération de fonds de cartes produits par des acteurs publics.
+* Impact environnemental : former à l’impact environnemental et mesurer celui des projets 10%.
+* PoufDoc : l’outil pour aider les administrations dans leur production récurrente de rapports.
+* Le moteur de recherche des datascientists de l’État par organisations, missions et compétences.
 
 Vous êtes datascientist de l'Etat ? 
 Vous avez envie de rejoindre un de ces projets ? 
