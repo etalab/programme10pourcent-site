@@ -132,7 +132,6 @@ Je m'occupe, avec des économistes, de construire une base représentative de la
 
 ![Capture LexImpact Budget](https://storage.gra.cloud.ovh.net/v1/AUTH_0f20d409cb2a4c9786c769e2edec0e06/padnumerique/uploads/a2e651c9-5e3f-4804-b3d7-3f453b057194.png)
 
-
 La partie sur [les cas types](https://socio-fiscal.leximpact.an.fr/?parameters=irpp_economique) est publique et permet de simuler une cinquantaine de dispositifs socio-fiscaux, grâce aux contributions à [OpenFisca](https://openfisca.org/fr/). 
 
 Un autre service ouvert à tous dont je m'occupe est le [téléchargement d'un pdf](https://leximpact.an.fr/datacirco) présentant divers statistiques (population, entreprise, logement...) à l'échelle de la circonscription.
