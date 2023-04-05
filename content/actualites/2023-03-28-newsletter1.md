@@ -2,7 +2,7 @@
 title: "Newsletter #1 !"
 slug: newsletter1
 date: 2023-03-28T13:00:00+01:00
-summary: Newsletter mars 2023
+summary: "Newsletter mars 2023"
 images: 
     - /img/newsletter-du-programme-10_200.png
 ---
