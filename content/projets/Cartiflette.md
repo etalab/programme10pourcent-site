@@ -1,4 +1,3 @@
----
 title: "Cartiflette : l’outil facilitant la récupération de fonds de carte officiels pour réaliser des cartes géographiques"
 Le projet Cartiflette a été lancé lors de la saison 1 du programme. Son objectif : rassembler les données géographiques de l’IGN et les référentiels administratifs de l’INSEE dans un point d’entrée clair et normalisé (catalogue et API) pour faciliter l’harmonisation et l’association de données géographiques.
 Le travail continue lors de la saison 2 (en attente de retour de Lino)
@@ -9,7 +8,4 @@ responsible: Kim Montalibet (Etalab)
 date: 2022-05-18T13:00:00+01:00
 github: Code source : https://github.com/InseeFrLab/cartogether
 images: 
-
----
-
-
+-----
