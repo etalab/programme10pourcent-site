@@ -1,6 +1,6 @@
 ---
-title: "ChartsGouv: l’outil de visualisation des données de l’Etat"
-summary: Les agents de l’Etat, experts ou non experts, peinent à choisir un outil unique de visualisation de données, et cèdent parfois à des solutions commerciales. Ce projet vise à donner un cadre cohérent à
+title: "ChartsGouv"
+summary: : Chartgouv est un outil de visualisation des données de l’Etat"Les agents de l’Etat, experts ou non experts, peinent à choisir un outil unique de visualisation de données, et cèdent parfois à des solutions commerciales. Ce projet vise à donner un cadre cohérent à
 la visualisation de données pour les agents de l’Etat en proposant un outil open source adapté esthétiquement (DSFR) et fonctionnellement (libraires JS de dataviz, e.g. ECharts et Observable Plot).
 Avec ce projet, les experts de la donnée monteront en compétences sur la visualisation de données et sur la connexion à tout type de base
 de données (SQL Alchemy). Nous ferons des cas d’usage avec des
