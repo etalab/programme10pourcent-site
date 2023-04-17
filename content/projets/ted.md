@@ -5,7 +5,7 @@ date: 2023-04-17T13:00:00+01:00
 Code source : https://github.com/pedevineau/llm-experiment
 Administrations participantes : DINUM, DITP, Assemblée Nationale, Ministère de l’Economie et des Finances
 Pour rejoindre l’équipe, le salon Tchap du projet : https://www.tchap.gouv.fr/#/room/#transformers:agent.dinum.tchap.gouv.fr
-images: 
+image : 
 
 ---
 
