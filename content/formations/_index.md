@@ -5,6 +5,10 @@ description: Formations dispensées dans le cadre du programme
 
 ## Saison 2023
 
+La formation 10% de l’atelier du 13 avril donnée par Romain Avouac, Datascientist à l’INSEE, était consacrée à **la présentation du SSP Cloud, une plateforme moderne et libre de data science** proposée et maintenue par l’Insee et à disposition des agents de l’Etat pour l’expérimentation à partir de données ouvertes. Une démonstration a permis de montrer le potentiel de l’outil pour faciliter le travail collaboratif sur les projets 10% : stockage de données, services de data science partagés, documentation et formations aux outils innovants. [Replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1681386948059)
+
+
+
 Une formation à la collecte de besoins **"Comment identifier un bon problème ?"** a été donnée par Damien Dufourd le 14 mars 2023.  Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1678799130836) et consulter [le support de présentation](https://speakerdeck.com/etalabia/formation-beta-dot-gouv-dot-fr-comment-identifier-un-bon-probleme). 
 
 Une formation aux **Bonnes pratiques de programmation avec Python** a été donnée par Lino Galiana, en collaboration avec Romain Avouac, le 30 mars 2023.  Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1680176731865) et consulter [le support de présentation](https://diit.pages.lab.sspcloud.fr/presentation/2023-03-30-bonnes-pratiques-10pc/#/title-slide). Le site vers les cours conçus par Lino et Romain dans le cadre du parcours data science de l'ENSAE est consultable [ici](https://linogaliana.github.io/ensae-reproductibilite-website/).
