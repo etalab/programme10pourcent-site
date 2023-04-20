@@ -7,6 +7,6 @@ Administrations participantes : Insee, Direction interministérielle du numériq
 Pour rejoindre l’équipe, le salon Tchap du projet: https://www.tchap.gouv.fr/#/room/#OCR10L9812RXBYB:agent.interieur.tchap.gouv.fr
 github : "https://github.com/etalab-ia/formIAble"
 images:
-- /img/visuel_programme_10_pourcent.png 
+- /img/image-ocr2.png
 ---
 
