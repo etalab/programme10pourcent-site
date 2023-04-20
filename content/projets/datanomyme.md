@@ -5,7 +5,7 @@ date: "2023-04-17T13:00:00+01:00"
 github: "https://github.com/InseeFrLab/dixpourcent-data-privacy"
 
 images:
-- /img/visuel_programme_10_pourcent.png 
+- /img/image-pseudo2.png
 
 ---
 Administrations participantes:INSEE, Assemblée Nationale, Dinum, Ministère de la Santé
