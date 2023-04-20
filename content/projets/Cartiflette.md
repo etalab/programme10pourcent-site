@@ -4,7 +4,7 @@ summary: "Cartiflette est un outil facilitant la récupération de fonds de cart
 date: "2023-04-17T13:00:00+01:00"
 github : https://github.com/InseeFrLab/cartogether
 images:
-- /img/visuel_programme_10_pourcent.png 
+- /img/image-ign-insee2.png
 ---
 
 Administrations paticipantes : INSEE, ministère de la Santé, ministère de l’Intérieur et ministère de la Transition écologique, enseignants-chercheurs
