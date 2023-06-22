@@ -13,6 +13,8 @@ Une formation à la collecte de besoins **"Comment identifier un bon problème ?
 
 Une formation aux **Bonnes pratiques de programmation avec Python** a été donnée par Lino Galiana, en collaboration avec Romain Avouac, le 30 mars 2023.  Vous pouvez visionner [le replay de la formation](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1680176731865) et consulter [le support de présentation](https://diit.pages.lab.sspcloud.fr/presentation/2023-03-30-bonnes-pratiques-10pc/#/title-slide). Le site vers les cours conçus par Lino et Romain dans le cadre du parcours data science de l'ENSAE est consultable [ici](https://linogaliana.github.io/ensae-reproductibilite-website/).
 
+Une formation à l'impact environnemental du numérique a été donnée par Brigitte Tran et Benoit Courty. Les supports de présentation sont consultable [ici pour la partie 1](https://speakerdeck.com/etalabia/programme-10-percent-partie-1-formation-impact-environnemental) et [là pour la partie 2](https://speakerdeck.com/etalabia/programme-10-percent-partie-2-formation-impact-environnemental). 
+
 ## Saison 2022
 
 Une formation au **déploiement d'applications sur Onyxia** a été animée par Olivier Levitt du SSP Datalab de l'INSEE le 6 septembre 2022. 
