@@ -15,6 +15,10 @@ Une formation aux **Bonnes pratiques de programmation avec Python** a été donn
 
 Une formation à l'impact environnemental du numérique a été donnée par Brigitte Tran et Benoit Courty. Les supports de présentation sont consultable [ici pour la partie 1](https://speakerdeck.com/etalabia/programme-10-percent-partie-1-formation-impact-environnemental) et [là pour la partie 2](https://speakerdeck.com/etalabia/programme-10-percent-partie-2-formation-impact-environnemental). 
 
+Formation au testing des modèles et à leur évaluation par Jean-Marie John-Mathews, PhD, co-founder & CPO de Giskard.
+Alors que l'AI Act demande aux praticiens de l'IA de mettre en place des solutions de mise en qualité de l'IA, les data scientists devront tester les modèles de ML avant de mettre leurs modèles en production. Au-delà des métriques globales de performance, il faudra veiller à mettre en place des tests variés (comme les tests métamorphiques ou heuristiques) en prenant en compte des segments de données spécifiques.
+Cette formation comprend une présentation de l'état de l'art du ML Testing puis une session pratique sur les quelques tests spécifiques. On montrera enfin comment intégrer les tests dans une pipeline de production. Le replay est disponible [ici](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/871ab1ad6290d683201d2996582dffe96174d9a6-1688039142278).
+
 ## Saison 2022
 
 Une formation au **déploiement d'applications sur Onyxia** a été animée par Olivier Levitt du SSP Datalab de l'INSEE le 6 septembre 2022. 
